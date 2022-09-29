@@ -1,0 +1,50 @@
+.titulo{display:flex;
+justify-content: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+.categoria{display: flex;
+justify-content:right;
+align-items: center;}
+
+.table{display:flex;
+justify-content:left;}
+
+.chica{display: flex;
+height: 350px;
+margin-bottom: 50px;
+margin-left: 50px;
+}
+
+.galeria{display: flex;
+flex-wrap:wrap;
+}
+
+.footer2{display:flex;
+justify-content: center;
+background-color: rgb(171, 88, 88);
+font-size: x-large;
+font-weight: bold;}
+
+.footer3{display:flex;
+justify-content: center;
+font-size: larger;
+font-weight: bolder;
+background-color: rgb(171, 88, 88);}
+
+
+.footer5{display:flex;
+justify-content: center;
+background-color: rgb(171, 88, 88);}
+
+html {background-c: rgb(193, 190, 190);}
+
+.nombrep {display: flex;
+justify-content:left;
+align-items: flex-end;
+margin-left:5px ;
+font-size:large;}
+
+.buscador{display: flex;
+justify-content: right;
+align-items: flex-start;}
+
