@@ -1,0 +1,80 @@
+
+.cabecera{background-image:
+    url("https://www.bmw.com.ec/content/dam/bmw/common/all-models/1-series/3-door/2017/at-a-glance/BMW-1series-3door-ataglance-ts-XXL-desktop.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 600px;
+}
+
+.titulo{display: flex;
+align-items: flex-end;
+botton:20px;
+height: 250px;
+margin-left: 30px;
+}
+
+.texto, h1 {color: azure;
+font-family:    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.boton-personalizado{text-decoration: none;
+font-weight: bold;
+color: white;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:70px;
+padding-right:70px;
+background-color:#1729ebe8;
+border-width: 3px;
+}
+
+.contenedor{margin:200px}
+
+.first-options{
+    height: 300px;
+    width:400px ;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+}
+
+.info, img{height: 200px;}
+
+
+.car-series{
+display: flex;
+justify-content: space-around;
+font-size: larger;
+font-weight: bold;
+color: rgb(187, 183, 183);
+list-style: none;}
+
+.clases {display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 30px;}
+
+.info{margin-right: 40px;
+
+}
+
+
+
+.footer{margin:100px;
+background-color: beige;
+}
+
+.primer-footer {display: flex;
+justify-content: space-around;
+align-items: center;
+height: 300px;
+background-color: rgb(228, 228, 228);}
+
+
+
+
+

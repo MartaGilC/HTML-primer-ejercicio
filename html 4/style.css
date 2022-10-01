@@ -3,20 +3,26 @@ justify-content: center;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
 .categoria{display: flex;
-justify-content:right;
-align-items: center;}
+justify-content: center;
+}
 
 .table{display:flex;
-justify-content:left;}
+justify-content:left;
+font-size: large;
+}
 
-.chica{display: flex;
-height: 350px;
+.chica{display: flex;  
+width: 400px ;  
+height: 300px;
 margin-bottom: 50px;
 margin-left: 50px;
+
 }
 
 .galeria{display: flex;
+flex-direction:row;
 flex-wrap:wrap;
+
 }
 
 .footer2{display:flex;
@@ -36,15 +42,16 @@ background-color: rgb(171, 88, 88);}
 justify-content: center;
 background-color: rgb(171, 88, 88);}
 
-html {background-c: rgb(193, 190, 190);}
+html {background-color: rgb(226, 224, 224);}
 
 .nombrep {display: flex;
 justify-content:left;
 align-items: flex-end;
 margin-left:5px ;
-font-size:large;}
+font-size:large;
+padding-top:40px ;}
 
 .buscador{display: flex;
 justify-content: right;
-align-items: flex-start;}
+;}
 
