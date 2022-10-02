@@ -3,50 +3,78 @@
     display:flex;
     justify-content: space-between;}
 
-    .first-text, h1{color: white;
-        ;}
 
+ .front-page{background-color: #4a154b; }
+.first-text, h1{color: white;}
 .yellow{color: yellow;}
 
-    .first-text, p{}
+  
 
-    .button{text-decoration: none;
-        border-radius: 5px;
-        display: block;
-        text-align: center;
-        align-items: center;
-        font-weight: 700px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-right: 40px;
-        background-color: white;
+.button{text-decoration: none;
+border-radius: 5px;
+display: block;
+text-align: center;
+align-items: center;
+font-weight: 700px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 40px;
+background-color: white;
     }
-    .second-button{text-decoration: none;
-        border-radius: 5px;
-        display: block;
-        text-align: center;
-        align-items: center;
-        font-weight: 700px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-right: 40px;
-        background-color: #4285f4;
-        margin-top: 12px;}
+.second-button{text-decoration: none;
+border-radius: 5px;
+display: block;
+text-align: center;
+align-items: center;
+font-weight: 700px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-right: 40px;
+background-color: #4285f4;
+margin-top: 12px;}
 
 .slack{width: 200px;}
-
 .icon{width: 30px;
-    margin-top: 45px;
+margin-top: 45px;
 margin-right: 40px;
 background-repeat: no-repeat;}
 
-.first-part{margin: 50px;}
+.first-part{margin: 50px;
+border-top-color: #4a154b;
+margin-top: -20px;
+}
+
 
 .video{display: flex;
-    justify-content: left;
-    align-items:flex-start;}
-
+justify-content: left;
+align-items:flex-start;}
 .top-video-style{display: flex;
 max-width:400px;}
 
-body{background-color:  #4a154b;}
+
+
+.companies{
+background-color: #f4ede4;
+margin-top: -50px;}
+.companies-logos{display: flex;
+flex-wrap: wrap;
+align-items: center;}
+.logos{max-width: 100px;
+display: flex;
+text-align: center;}
+
+
+
+.reunion{display: grid;
+grid-template-columns: 100%;
+background-color:#f4ede4}
+
+
+.texto-reunion{display: inline;}
+.texto-reunion, p{font-weight: bold;}
+
+
+.trabajo{background-color:#f4ede4;
+display: flex;}
+.herramientas{background-color:#f4ede4}
+.second{background-color:#f4ede4}
