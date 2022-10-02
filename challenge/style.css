@@ -1,0 +1,52 @@
+.logo{ 
+    background-color: #4a154b;
+    display:flex;
+    justify-content: space-between;}
+
+    .first-text, h1{color: white;
+        ;}
+
+.yellow{color: yellow;}
+
+    .first-text, p{}
+
+    .button{text-decoration: none;
+        border-radius: 5px;
+        display: block;
+        text-align: center;
+        align-items: center;
+        font-weight: 700px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 40px;
+        background-color: white;
+    }
+    .second-button{text-decoration: none;
+        border-radius: 5px;
+        display: block;
+        text-align: center;
+        align-items: center;
+        font-weight: 700px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 40px;
+        background-color: #4285f4;
+        margin-top: 12px;}
+
+.slack{width: 200px;}
+
+.icon{width: 30px;
+    margin-top: 45px;
+margin-right: 40px;
+background-repeat: no-repeat;}
+
+.first-part{margin: 50px;}
+
+.video{display: flex;
+    justify-content: left;
+    align-items:flex-start;}
+
+.top-video-style{display: flex;
+max-width:400px;}
+
+body{background-color:  #4a154b;}
