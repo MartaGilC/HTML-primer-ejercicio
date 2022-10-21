@@ -15,7 +15,7 @@ let classPokemon$ = document.querySelectorAll('.pokemon');
 console.log(classPokemon$)
 
 //Usa querySelector para mostrar por consola todos los elementos con el atributo data-function="testMe"
-let data$$ = document.querySelector('[data-function = "testMe"]');
+let data$$ = document.querySelectorAll('[data-function = "testMe"]');
 console.log(data$$)
 
 //Usa querySelector para mostrar por consola el 3 personaje con el atributo data-function="testMe"
